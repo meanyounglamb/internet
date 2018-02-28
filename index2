@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head> <title>인터넷 쇼핑몰의 룩 앤드 필</title>   
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Marck+Script" rel="stylesheet">
+
+<style>
+@font-face {font-family: 'Cutive Mono', monospace;
+}
+body, table, div, p {font-family: Cutive Mono;}
+body{background-color:white; 
+}
+table, th, td, tr {
+  border: 0px solid black;
+   margin: 0 auto;
+    float: none;
+    padding: 0px;
+    border-collapse: collapse; 
+    vertical-align: top;
+}
+
+div {
+  margin: 0px auto;
+    padding: 0;
+    vertical-align: middle;
+
+}
+	
+#middle {
+  height: 5em;
+  line-height: 5em;
+}
+
+p{
+  text-align: left;
+  margin: 0px 0px 0px 0px;
+  padding: 0px;
+}
+
+p.indent {
+  text-indent: 30px;
+  margin: 10px 0px 0px 20px;
+}
+
+p.noindent {
+  text-indent: 0px;
+  margin: 0px 0px 0px 0px;
+vertical-align: middle;
+
+}
+
+hr{
+	border: solid 1px black;
+	margin: 0px;
+  padding: 0px;
+  
+}
+
+img{
+  margin: 0px;
+  padding: 0px;
+  float: none;
+  display: block;
+}  
+ a:link { color: black; text-decoration: none;}
+ a:visited { color: black; text-decoration: none;}
+ a:hover { color: red; text-decoration: none;}
+ a:active { color: black; text-decoration: none;}
+
+.over    {color:black; font-size:50px; text-decoration:none}
+.out     {color:black; font-size:50px; text-decoration:none}
+
+
+</style></head>
+
+
+<br>
+<hr>
+
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://www.utg.kr/" target="_blank">
+<font size="30">http://www.utg.kr/
+</font>
+</a></div>	
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://www.stylenanda.com/" target="_blank">
+<p class="noindent"><font size="30">http://www.stylenanda.com/
+</font></p>
+</a></div>
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://www.liphop.co.kr/" target="_blank">
+<p class="noindent"><font size="30">http://www.liphop.co.kr/
+</font></p>
+</a></div>
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://www.milkcocoa.co.kr/" target="_blank">
+<p class="noindent"><font size="30">http://www.milkcocoa.co.kr/
+</font></p>
+</a></div>
+	
+	<hr>
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://freckle.kr/" target="_blank">
+<p class="noindent"><font size="30">http://freckle.kr/ 
+</font></p>
+</a></div>
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://www.something-aboutus.com/" target="_blank">
+<p class="noindent"><font size="30">http://www.something-aboutus.com/
+</font></p>
+</a></div><hr>
+	
+
+		
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://ournaivemarket.cafe24.com/" target="_blank">
+<p class="noindent"><font size="30">http://www.ournaivemarket.com/
+</font></p>
+</a></div><hr>
+	
+
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://g-r-a-b.com/" target="_blank">
+<p class="noindent"><font size="30">http://g-r-a-b.com/
+</font></p>
+</a></div>
+	
+<div id="middle"; style="background-color: #FBFAE4"><a href="http://g-r-a-b.com/" target="_blank">
+<p class="noindent"><font size="30">http://g-r-a-b.com/
+</font></p>
+</a></div><hr>
+
+
+
+<a onclick="this.nextSibling.style.display=(this.nextSibling.style.display=='none')?'block':'none';" href="javascript:void(0)"> 
+<p class="noindent"><font size="30">---(2010~2012)
+<hr></font></p>
+</a><div style="DISPLAY: none">
+<font size="30">
+
+<font color=white>OO</font>빈티지 의류 쇼핑몰.<br>
+<table width="100%"><tr><tr><td><img src="our naive market (20120916)F 3.jpg" width="100%"></td>
+<tr><td><img src="our naive market (201.jpg" width="100%"></td>
+</tr><tr><td><img src="our naive market 2.jpg" width="100%"></td></tr>
+<tr><td><img src="our naive market 1.jpg" width="100%"></td></tr>
+<tr><td><img src="our naive market 3.jpg" width="100%"></td>
+</tr></table>
+
+
+
+
+<br>
+</body>
+</html>
