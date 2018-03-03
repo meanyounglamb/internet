@@ -1,0 +1,335 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>our naive market</title>
+<style type="text/css">
+<!--
+.b {
+	position:absolute;
+	background: url('/img/invis.gif');
+	left: 131px;
+	top: 194px;
+	width: 126px;
+	height: 137px;
+	background-image: url(/img/invis.gif);
+	overflow: visible;
+}
+
+.b:hover, .bh {
+	background-image: url(img/66.gif);
+}
+.container {
+	background: #fff;
+	margin: 30px auto 4px auto;
+	padding: 0 20px 20px 20px;
+	position: relative;
+	text-align: left;
+	width: 900px;
+}
+.container2 {
+	position:relative;
+	width:960px;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	text-align:left;
+	top: 2px;
+	left: 13.5px;
+	height: 101px;
+}
+body {
+	font-family: Georgia, Serif, Times;
+	text-align:center;
+	background: #fff;
+}
+
+
+.s {
+	position:absolute;
+	background: url('/img/_invis.gif');
+}
+
+.s:hover, .sh {
+	background: url('/img/_sold1.gif') no-repeat center center;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+p {
+	font-size: 13px;
+	line-height: 18px;
+}
+
+td {
+	vertical-align:top;
+}
+#apDiv1 {
+	position:absolute;
+	left:534px;
+	top:75px;
+	width:44px;
+	height:22px;
+	z-index:1;
+}
+#apDiv2 {
+	position:absolute;
+	left:533px;
+	top:72px;
+	width:50px;
+	height:31px;
+	z-index:1;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+
+<style type="text/css">
+<!--
+#apDiv3 {
+	position:absolute;
+	left:825px;
+	top:-25px;
+	height:18px;
+	z-index:1;
+}
+#apDiv4 {
+	position:absolute;
+	left:536px;
+	top:72px;
+	width:46px;
+	height:31px;
+	z-index:1;
+	background-image: url(img/invis.gif);
+}
+#apDiv5 {
+	position:absolute;
+	left:526px;
+	top:63px;
+	width:57px;
+	height:41px;
+	background-image: url(img/invis.gif);
+}
+#apDiv6 {
+	position:absolute;
+	left:685px;
+	top:48px;
+	width:38px;
+	height:23px;
+	z-index:1;
+	overflow: visible;
+	background-image: url(img/invis.gif);
+}
+#apDiv7 {
+	position:absolute;
+	left:642px;
+	top:23px;
+	width:68px;
+	height:53px;
+	z-index:1;
+	overflow: visible;
+	visibility: visible;
+}
+#apDiv8 {
+	position:absolute;
+	left:534px;
+	top:73px;
+	width:55px;
+	height:24px;
+	z-index:1;
+	overflow: visible;
+	background-image: url(/img/_invis.gif);
+}
+#apDiv9 {
+	position:absolute;
+	left:541px;
+	top:75px;
+	width:52px;
+	height:24px;
+	z-index:2;
+}
+#apDiv10 {
+	position:absolute;
+	left:503px;
+	top:58px;
+	width:52px;
+	height:24px;
+	z-index:0;
+}
+#apDiv11 {
+	position:absolute;
+	left:885px;
+	top:61px;
+	width:46px;
+	height:34px;
+	z-index:1;
+}
+#apDiv12 {
+	position:absolute;
+	left:555px;
+	top:55px;
+	width:57px;
+	height:26px;
+	z-index:1;
+}
+#apDiv13 {
+	position:absolute;
+	left:675px;
+	top:67px;
+	width:27px;
+	height:28px;
+	z-index:1;
+}
+#apDiv14 {
+	position:absolute;
+	left:785px;
+	top:63px;
+	width:32px;
+	height:30px;
+	z-index:2;
+}
+#apDiv15 {
+	position:absolute;
+	left:704px;
+	top:64px;
+	width:34px;
+	height:30px;
+	z-index:3;
+}
+#apDiv16 {
+	position:absolute;
+	left:738px;
+	top:63px;
+	width:45px;
+	height:30px;
+	z-index:4;
+}
+#apDiv17 {
+	position:absolute;
+	left:613px;
+	top:59px;
+	width:57px;
+	height:32px;
+	z-index:5;
+}
+#apDiv18 {
+	position:absolute;
+	left:817px;
+	top:78px;
+	width:68px;
+	height:20px;
+	z-index:6;
+}
+-->
+</style>
+</head>
+<body onload="MM_preloadImages('img/walls.jpeg','img/vintage.jpeg','img/objects.jpeg','img/designers.jpeg','img/dress.jpeg','img/bottom.jpeg','img/ours.jpeg','img/top.jpeg','img/outer.jpeg','img/acc.jpeg')">
+<table width="987" height=101 border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+     <td id="container"><div class="container2">
+  <div id="apDiv7"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=24" target="_self" onmouseover="MM_swapImage('Image2','','img/walls.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/walls_in.gif" name="Image2" width="68" height="51" border="0" id="Image2" /></a></div>
+  <div id="apDiv10"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=24" target="_self" onmouseover="MM_swapImage('Image3','','img/vintage.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/in5224.gif" alt="" name="Image3" width="52" height="24" hspace="0" vspace="0" border="0" align="top" id="Image3" /></a></div>
+    <div id="apDiv11"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=26" target="_self" onmouseover="MM_swapImage('Image4','','img/objects.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/objects_in.gif" name="Image4" width="46" height="34" border="0" id="Image4" /></a></div>
+<div id="apDiv12"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=25" target="_self" onmouseover="MM_swapImage('Image5','','img/designers.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/designers_5726.gif" name="Image5" width="57" height="26" border="0" id="Image5" /></a></div>
+<div id="apDiv13"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=28" target="_self" onmouseover="MM_swapImage('top','','img/top.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/top.gif" name="top" width="27" height="28" border="0" id="dress" /></a></div>
+<div id="apDiv14"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=31" target="_self" onmouseover="MM_swapImage('dress','','img/dress.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/dress.gif" name="dress" width="32" height="30" border="0" id="dress" /></a></div>
+<div id="apDiv15"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=29" target="_self" onmouseover="MM_swapImage('outer','','img/outer.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/outer.gif" name="outer" width="34" height="30" border="0" id="dress" /></a></div>
+<div id="apDiv16"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=30" target="_self" onmouseover="MM_swapImage('bottom','','img/bottom.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/bottom.gif" name="bottom" width="45" height="31" border="0" id="bottom" /></a></div>
+<div id="apDiv17"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=33" target="_self" onmouseover="MM_swapImage('ours','','img/ours.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/ours.gif" name="ours" width="57" height="32" border="0" id="ours" /></a></div>
+<div id="apDiv18"><a href="http://ournaivemarket.cafe24.com/front/php/category.php?cate_no=32" target="_self" onmouseover="MM_swapImage('acc','','img/acc.jpeg',1)" onmouseout="MM_swapImgRestore()"><img src="img/acc.gif" name="acc" width="68" height="20" border="0" id="acc" /></a></div>
+<div align="center"><img src="img/topmenu.jpg" alt="top_menu" width="960" height="101" border="0" align="top" usemap="#Map" /></div>
+ <map name="Map" id="Map">
+        <area shape="rect" coords="30,21,383,83" href="http://ournaivemarket.com" target="_self" />
+        <area shape="rect" coords="894,25,933,44" href="http://ournaivemarket.cafe24.com/front/php/b/board_list.php?board_no=1" target="_self" />
+        <area shape="rect" coords="820,23,869,44" href="http://ournaivemarket.cafe24.com/front/php/myshop/myshop.php" target="_self" />
+        <area shape="rect" coords="868,25,895,44" href="http://ournaivemarket.cafe24.com/front/php/basket.php" target="_self" />
+ </map></div></td>
+</tr></table>
+    
+    
+    
+<div class="container"> 
+<div id="apDiv3">
+  <div align="right"><img src="loginout.jpeg" alt="log" width="81" height="19" border="0" usemap="#Map3" />
+<map name="Map3" id="Map3"><area shape="rect" coords="2,3,34,19" href="http://ournaivemarket.cafe24.com/front/php/login/login_f.php" target="_self" />
+<area shape="rect" coords="39,3,80,17" href="http://ournaivemarket.cafe24.com/front/php/login/login_a.php?mode=logout" target="_self" />
+</map>
+ </div>
+</div>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=13&amp;main_cate_no=24&amp;display_group=1">
+<div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 514px; height: 281px;"></div>
+</a>
+ <a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=24&amp;main_cate_no=24&amp;display_group=1"">
+<div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 419px; width: 56px; top: 226px; height: 218px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=19&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 185px; width: 63px; top: 628px; height: 98px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=20&amp;main_cate_no=24&amp;display_group=1" ><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 608px; width: 142px; top: 842px; height: 96px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=12&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 228px; width: 174px; top: 655px; height: 244px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=12&main_cate_no=24&display_group=1"><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 277px; width: 176px; top: 746px; height: 224px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=18&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 484px; width: 79px; top: 916px; height: 107px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=17&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 578px; width: 88px; top: 961px; height: 125px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=3&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 59px; width: 253px; top: 219px; height: 298px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=10&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 219px; width: 198px; top: 175px; height: 417px;"></div>
+</a>
+<a href="edwardhopper.html"><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 75px; width: 438px; top: 23px; height: 60px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=2&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 672px; width: 153px; top: 412px; height: 494px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=58&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 510px; width: 28px; top: 21px; height: 36px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=16&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 388px; width: 133px; top: 79px; height: 145px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=26&amp;main_cate_no=24&amp;display_group=1"><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 668px; width: 87px; top: 40px; height: 97px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=21&amp;main_cate_no=24&amp;display_group=1"><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 744px; width: 135px; top: 44px; height: 239px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=25&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 794px; width: 92px; top: 331px; height: 49px;"></div>
+</a><a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=14&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 429px; width: 210px; top: 458px; height: 333px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=23&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 572px; width: 35px; top: 556px; height: 82px;"></div>
+</a>
+<a href="http://ournaivemarket.cafe24.com/front/php/product.php?product_no=19&amp;main_cate_no=24&amp;display_group=1""><div class="b" onMouseOver="this.className='b bh'" onMouseOut="this.className='b'" style="left: 771px; width: 81px; top: 377px; height: 87px;"></div>
+</a>
+<div align="center"><img src="e2.jpg" alt="wall" width="850"  border="0" scrolling=no /></div>
+</div>
+   
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td id="container"><div align="center"><img src="img/info3.jpeg" border="0" usemap="#Map2" scrolling=auto></div></td>
+  
+
+<map name="Map2" id="Map2"><area shape="rect" coords="4,18,50,46" href="http://www.ournaivemarket.com" target="self" /><area shape="rect" coords="51,19,136,46" href="http://ournaivemarket.cafe24.com/front/php/privacy_agree.php" target="_self" />
+<area shape="rect" coords="230,19,275,45" href="http://ournaivemarket.cafe24.com/front/php/faq.php" target="_self" /><area shape="rect" coords="136,19,230,45" href="http://ournaivemarket.cafe24.com/front/php/member_agree.php" target="_self" />
+</map></tr>
+</table>
+</center>
+</body>
+</html>
+   
+    
+</body>
+</html>
