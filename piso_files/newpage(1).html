@@ -1,0 +1,209 @@
+
+<!-- saved from url=(0058)http://feelsogirl.cafe24.com/front/php/newpage.php?code=11 -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=EUC-KR"></head><body>* 자세한 내용은 <b>NOTICE 게시판</b>에서 확인 가능하십니다 :D
+<script language="JavaScript" type="text/javascript">
+<!--
+    var _aPrs = new Array();
+    _sUserQs = window.location.search.substring(1);
+    _aPrs[0] = 'rloc='+escape(document.location);
+    _aPrs[1] = 'rref='+escape(document.referrer);
+    _aPrs[2] = 'udim='+window.screen.width+'*'+window.screen.height;
+    _aPrs[3] = 'rserv=eclog2-165.cafe24.com';
+    _sUrlQs = _sUserQs + '&' + _aPrs.join('&');
+    var _sUrlFull = "<IFR" + "AME " + "SRC='/front/php/realconn.php?" + _sUrlQs + "' id='log_realconn' frameborder='0' style='display:none;width:0px;height:0px;'></IFRA" + "ME>";
+    document.write(_sUrlFull);
+-->
+</script><iframe src="./realconn(2).html" id="log_realconn" frameborder="0" style="display:none;width:0px;height:0px;"></iframe>
+<script language="javascript" type="text/javascript">var sTime = new Date().getTime();document.write("<script type='text/javascript' id='log_script' src='//eclog2-165.cafe24.com/weblog.js?uid=feelsogirl&uname=feelsogirl&r_ref=&CUK45=&t="+sTime+"'><\/script>");</script><script src="./weblog(3).html"></script><script type="text/javascript" id="log_script" src="./weblog(4).js"></script>
+<div id="dLoading_div"></div><script type="text/javascript">var sAuthSSLFlag = "F"</script><script type="text/javascript" charset="euc-kr" src="./AuthSSLManager.js"></script>
+               <script type="text/javascript" charset="euc-kr" src="./AuthSSLManager.plugin.js"></script><script type="text/javascript">AuthSSLManager.SSL_URL = 'https://login2.cafe24ssl.com/crypt/AuthSSLManagerV2.php';</script>
+                <script type="text/javascript">
+                try {
+                AuthSSLManager.getValue = function(id) {
+                    if( /::/.test(id) == true ) {
+                        var divide, o, type, tmpVal;
+                        divide = id.split('::');
+                        var frm = divide[0], id = divide[1];
+
+                        var o = document.forms[frm].elements[id];
+                        if( typeof o != 'object' ) {
+                            val = '';
+                        } else {
+                            if( typeof o.length != 'undefined' && o.length > 1 ) {
+                                for (j=o.length-1; j>= 0; j--) {
+                                    if (document.forms[frm].elements[id][j].value != '') {
+                                        o = document.forms[frm].elements[id][j];
+                                        tmpVal = true;
+                                    }
+                                }
+                                if (tmpVal !== true) {
+                                    o = document.forms[frm].elements[id][0];
+                                }
+                            }
+                            if (o.value != '') {
+                                val = o.value;
+                            } else {
+                                val = '';
+                            }
+                        }
+
+                    } else {
+                        var o, type;
+                        o = document.getElementById(id);
+
+                        if( o != null ) {
+                            type = o.getAttribute('type');
+                        } else {
+                            o = document.getElementsByName(id);
+                            if( o.length == 0 ) return -1;
+                            type = o[0].getAttribute('type');
+                        }
+
+                        var val;
+                        switch(type) {
+                            default:
+                            case 'text':
+                                o = document.getElementById(id);
+                                if( o == null ) {
+                                    o = document.getElementsByName(id);
+                                    try {
+                                        val = o[0].value;
+                                    } catch(e) {
+                                        val = '';
+                                    }
+                                } else {
+                                    try {
+                                        val = o.value;
+                                    } catch(e) {
+                                        val = '';
+                                    }
+                                }
+                                break;
+                            case 'radio':
+                            case 'checkbox':
+                                val = this.checkbox({'name': id, 'mode': 'val'});
+                                break;
+                        }
+                    }
+
+                    return val;
+                };
+                } catch(e) {}
+                </script>
+                
+            <script language="javascript">
+            <!--
+            try {
+                document.login_f.onsubmit = function() {
+                encryptSubmit_LoginF();
+                return false;
+                }
+            } catch(e) {}
+            //-->
+            </script>
+            <script language="javascript">
+
+            function getReturnUrl(oWindow)
+            {
+                var sQueryString = oWindow.document.location.search.substring(1);
+                var sReturnUrl = '';
+                if (sQueryString) {
+                    var aFields = sQueryString.split('&');
+                    var aField = [];
+                    for (var i = 0; i < aFields.length; i++) {
+                        aField = aFields[i].split('=');
+                        if (aField[0] == 'redirect_url') {
+                            sReturnUrl = '&redirect_url='+encodeURIComponent(encodeURIComponent(decodeURIComponent(aField[1]).replace(/(\|\|)/g, '&')));
+                        }
+                    }
+                }
+                return sReturnUrl;
+            }
+            function encryptSubmit_LoginF()
+            {
+                AuthSSLManager.weave({
+                    // encrypt / decrypt
+                    'auth_mode': 'encrypt'
+                    // 엘리먼트 아이디 혹은 라디오박스는 name
+
+                    , 'aEleId': ['login_f::id', 'login_f::passwd']
+
+                    // callback function-name
+                    , 'auth_callbackName': 'encryptSubmit_Complete_LoginF'
+                });
+            }
+            function encryptSubmit_Complete_LoginF(output)
+            {
+                var oForm = document.createElement("form");
+                document.body.appendChild(oForm);
+                var oBjencode_str = document.createElement("input");
+                oBjencode_str.name = "encode_str";
+                oBjencode_str.id = "encode_str";
+                oBjencode_str.type = "hidden";
+                oForm.appendChild(oBjencode_str);
+
+                if (AuthSSLManager.isError(output) == true ) {
+                    alert("개인정보 암호화 실패. 관리자에게 문의해 주세요.");
+                    return false;
+                }
+                document.getElementById('encode_str').value = output;
+              oForm.method = "post";
+              oForm.action = "/front/php/login/login_a.php?is_ssl=T"+getReturnUrl(window);
+              oForm.submit();
+            }
+            </script><script type="text/javascript" src="./wcslog.js"></script>
+<script type="text/javascript">
+<!--
+  if (!wcs_add) var wcs_add = {}; 
+  wcs_add["wa"] = "s_5029107ed329"; 
+    wcs.checkoutWhitelist = ["feelsogirl.cafe24.com", "www.feelsogirl.cafe24.com", "m.feelsogirl.cafe24.com", "feelsogirl.com", "www.feelsogirl.com", "m.feelsogirl.com"];
+  wcs.mileageWhitelist = ["feelsogirl.cafe24.com", "www.feelsogirl.cafe24.com", "m.feelsogirl.cafe24.com", "feelsogirl.com", "www.feelsogirl.com", "m.feelsogirl.com"];
+    wcs.inflow('feelsogirl.com');
+  wcs_do();
+-->
+</script><script type="text/javascript">/*
+ * 각개체 별 항목 컨트롤 을 위해서 차후 확장을 고려 하여 별도로 추출
+ * 
+ */
+
+secondZipcodeHidden();
+
+function secondZipcodeHidden () {
+    
+    //Front Page 우편번호 2번째 엘레멘트 리스트
+    var secondZipcodeElementId = new Array (
+            "postcode2",
+            "rzipcode2",
+            "ozipcode2",
+            "zip2",
+            "address_zip2"
+            );
+
+    for (var i in secondZipcodeElementId) {
+        try {
+            document.getElementById(secondZipcodeElementId[i]).style.display = "none";
+        } catch (e){ }
+    }
+
+    // 구디자인 회원 가입수정 zip2 제거
+    try {
+        document.frm.zip2.style.display = "none";
+    } catch (e) { }
+
+    // 구디자인 배송목록 zip2 제거
+    try {
+        document.addr_set.rcv_zipcode2.style.display = "none";
+    } catch (e) { }
+
+    // 구디자인 주문서 작성 zip2 제거
+    try {
+        document.frm.rzipcode2.style.display = "none";
+        document.frm.ozipcode2.style.display = "none";
+    } catch (e) { }
+
+    // 구디자인 세금계산서 신청약식 zip2 제거
+    try {
+        document.frm.mall_zipcode2.style.display = "none";
+    } catch (e) { }
+}
+</script></body></html>

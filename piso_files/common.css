@@ -1,0 +1,132 @@
+BODY { scrollbar-3dlight-color:#000000;
+scrollbar-arrow-color:#FFFFFF;
+scrollbar-track-color:#FFFFFF;
+scrollbar-darkshadow-color:#000000;
+scrollbar-face-color:#000000;
+scrollbar-highlight-color:#000000;
+scrollbar-shadow-color:#000000;}
+
+
+
+
+body				{color:#555555; font-family:calibri; font-size:12px; line-height:17px;}
+td				{color:#555555; font-family:calibri; font-size:12px; line-height:17px;word-break:break-all}
+
+
+/*
+select, input, textarea		{color:#555555; font-family:calibri; font-size:12px; padding-top:2; line-height:17; pxborder:1 solid; #FFFFFF;}
+input.radio 			{ height: 15px;}
+input.checkbox 			{ height: 15px;}
+*/
+
+
+
+a:link				{color:#555555; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px}
+a:visited			{color:#555555; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px}
+a:active			{color:#555555; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px}
+a:hover				{color:#222222; font-family:calibri; font-size:12px; text-decoration:underline; line-height:17px}
+
+
+/* 탑링크 */
+.txt_name			{color:#0088AF; font-family:calibri; font-size:12px; line-height:14px; letter-spacing:-1}
+a.txt_name:link			{color:#0088AF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1}
+a.txt_name:visited		{color:#0088AF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1}
+a.txt_name:active		{color:#0088AF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1}
+a.txt_name:hover		{color:#0088AF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1}
+
+
+
+.topmenu			{color:#FFFFFF; font-family:calibri; font-size:12px; line-height:17px; font-weight:bold}
+a.topmenu:link			{color:#FFFFFF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; font-weight:bold}
+a.topmenu:visited		{color:#FFFFFF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; font-weight:bold}
+a.topmenu:active		{color:#FFFFFF; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; font-weight:bold}
+a.topmenu:hover	        	{color:#FFFFFF; font-family:calibri; font-size:12px; text-decoration:underline; line-height:17px;; font-weight:bold}
+
+
+.top_search			{color:#FFFFFF; font-family:calibri; font-size:12px; line-height:17px; letter-spacing:-1;}
+
+
+/* 해당페이지 */
+.part01				{color:#666666; font-family:calibri; font-size:12px; line-height:17px; letter-spacing:-1; font-weight:bold}
+
+.linemap02			{color:#757474; font-family:calibri; font-size:12px; line-height:17px; letter-spacing:-1; font-weight:bold}
+A.linemap02:link		{color:#757474; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1; font-weight:bold}
+A.linemap02:visited		{color:#757474; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1; font-weight:bold}
+A.linemap02:active		{color:#757474; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1; font-weight:bold}
+A.linemap02:hover		{color:#333333; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px; letter-spacing:-1; font-weight:bold}
+
+.txt_num			{color:#8E8E8E; font-family:calibri; font-size:12px; line-height:14px; }
+
+
+.font12_listnum 		{font-size:12px; color:#FE1B1B; font-weight:bold; line-height:17px }
+.font12_price 			{font-size:12px; color:#008BCC; font-weight:bold; line-height:17px }
+.font12_price02			{font-size:12px; color:#008BCC; font-weight:bold; line-height:17px }
+.font13_title01 		{font-size:12px; color:#000000; font-weight:bold; line-height:17px }
+.font13_title02 		{font-size:12px; color:#ffffff; font-weight:bold; line-height:17px }
+.font14_title 			{font-size:14px; color:#555555; font-weight:bold; line-height:17px }
+.font15_title 			{font-size:15px; color:#222222; font-weight:bold; line-height:17px }
+.font15_title01			{font-size:15px; color:#008BCC; font-weight:bold; line-height:17px }
+.font16_title 			{font-size:16px; color:#333333; font-weight:bold; line-height:18px }
+.font17_title 			{font-size:17px; color:#FFFFFF; font-weight:bold; line-height:17px }
+
+/*2006-10-09, 백훈성 추가*/
+.font_sum{font-family:굴림;folnt-size:12px;color:FF6C00;font-weight:bold}
+.font_blue{font-family:calibri;folnt-size:12px;color:007BEE}
+
+.txt_11				{color:#F98100; font-family:calibri; font-size:12px; line-height:14px}
+A.txt_11:link			{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_11:visited		{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_11:active	    		{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_11:hover			{color:#333333; font-family:calibri; font-size:12px; text-decoration:underline; line-height:14px;}
+
+.txt_12orange			{color:#F98100; font-family:calibri; font-size:12px; line-height:14px}
+A.txt_12orange:link		{color:#F98100; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_12orange:visited	   	{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_12orange:active	    	{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px;}
+A.txt_12orange:hover		{color:#F98100; font-family:calibri; font-size:12px; text-decoration:underline; line-height:14px;}
+
+.txt_13				{color:#F98100; font-family:calibri; font-size:12px; font-weight:bold; line-height:14px}
+A.txt_13:link			{color:#666666; font-family:calibri; font-size:12px; font-weight:bold; text-decoration:none; line-height:14px;}
+A.txt_13:visited		{color:#666666; font-family:calibri; font-size:12px; font-weight:bold; text-decoration:none; line-height:14px;}
+A.txt_13:active	    		{color:#666666; font-family:calibri; font-size:12px; font-weight:bold; text-decoration:none; line-height:14px;}
+A.txt_13:hover			{color:#333333; font-family:calibri; font-size:12px; font-weight:bold; text-decoration:underline; line-height:14px;}
+
+/* 상품링크 */
+/*
+.txt_pro	        	{color:#222222; font-family:calibri; font-size:12px; line-height:14px;}
+a.txt_pro:link			{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_pro:visited		{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_pro:active    		{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_pro:hover			{color:#008BCC; font-family:calibri; font-size:12px; text-decoration:underline; line-height:14px}
+*/
+
+a.txt_pro:hover			{color:#008BCC; text-decoration:underline;}
+
+/* 날짜 */
+.txt_date			{color:#666666; font-family:calibri; font-size:12px; line-height:14px;}
+a.txt_date:link			{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_date:visited		{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_date:active		{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_date:hover		{color:#666666; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+
+.txt_coupon	            	{color:#EC008C; font-family:calibri; font-size:12px; line-height:17px;}
+a.txt_coupon:link		{color:#008BCC; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_coupon:visited		{color:#008BCC; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_coupon:active		{color:#008BCC; font-family:calibri; font-size:12px; text-decoration:none; line-height:17px;}
+a.txt_coupon:hover		{color:#008BCC; font-family:calibri; font-size:12px; text-decoration:underline; line-height:17px;}
+
+/* 게시판링크 */
+.txt_board	        	{color:#222222; font-family:calibri; font-size:12px; line-height:14px;}
+a.txt_board:link		{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_board:visited		{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_board:active    		{color:#222222; font-family:calibri; font-size:12px; text-decoration:none; line-height:14px}
+a.txt_board:hover		{color:#00B8C8; font-family:calibri; font-size:12px; text-decoration:underline; line-height:14px}
+
+.input01			{border:1 solid #CACACA;}
+.input02        		{border:1 solid #CACACA; font-size:12px; color:#008BCC; font-weight:bold; line-height:17px}
+.input03			{border:1 solid #CACACA; width:200;}
+.input04			{border:1 solid #CACACA; width:100px; height:19px}
+.select01    			{font-size: 12px; color:#555555; border:1 solid #FFFFFF; background-color:#FFFFFF}
+
+.txtarea01 			{style="BORDER-RIGHT: E9E9E9 1px solid; BORDER-TOP: E9E9E9 1px solid; FONT: 9pt calibri,calibri체; BORDER-LEFT: E9E9E9 1px solid;  BORDER-BOTTOM: E9E9E9 1px solid"}
+                                                                                                                                    
