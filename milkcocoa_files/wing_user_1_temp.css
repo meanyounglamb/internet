@@ -1,0 +1,412 @@
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	공통스타일
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+body,
+td,
+input,
+div,
+form,
+textarea,
+center,
+pre,
+blockquote,
+textfield,
+select {font-family:Dotum; font-size:12px; color:#888; line-height:160%;}
+img {border:0;}
+p,
+form {margin:0;}
+a {color:#888; text-decoration:none;}
+a:hover {color:#888; text-decoration:none;}
+li img {vertical-align:top;}
+/* 페이징 */
+.paging { padding: 28px 0 1px 0; text-align: center; }
+.paging * { vertical-align: middle; font-family: Dotum; font-weight: 700; font-size: 12px; color: #828282; }
+.paging img { margin-bottom: 2px; }
+.paging strong { color: #ff5f00; }
+.paging .parentheses { display: none; }
+.paging li { padding: 0 2px; display: inline-block; *zoom: 1; *display: inline; }
+
+#skin_shop_big_section_big_div .paging { padding: 28px 0 1px 0; text-align: right !important; }
+#skin_shop_big_section_big_div .paging * { font-family: Dotum !important; font-weight: 500 !important; color: #888 !important; }
+#skin_shop_big_section_big_div .paging strong { font-weight: 700 !important; }
+#skin_shop_big_section_big_div .paging img { margin-bottom: 2px; }
+#skin_shop_big_section_big_div .paging .parentheses { display: inline !important; }
+#skin_shop_big_section_big_div .paging li { padding: 0 2px; display: inline-block; *zoom: 1; *display: inline; }
+
+
+/* 인풋박스 */
+.input {border:1px solid #afafaf;}
+/* 수량 */
+.ea {width:30px; height:20px; border: 1px solid #A5ACB2; color:#4E4E4E;}
+/* 버튼 */
+.bottombtn {padding:20px 0; text-align:center;}
+/* 테이블 스타일 가로 (리뉴얼전)
+.table_style {width:100%; border-collapse:collapse; border-top:1px solid #e8e8e8; border-left:1px solid #e8e8e8;}
+.table_style caption {display:none;}
+.table_style thead th {padding:7px 0; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; font-size:11px; font-weight:normal; text-align:center; background:#ececec;}
+.table_style tbody td {padding:7px 0; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; font-size:11px; text-align:center;}
+.table_style tbody td.empty {padding:100px 0;}
+.table_style tbody td.left {padding-left:10px; text-align:left;}*/
+/* 테이블 스타일 가로 */
+.table_style {width:100%; border-collapse:collapse;}
+.table_style caption {display:none;}
+.table_style thead th {padding:7px 0; font-size:11px; font-weight:normal; text-align:center; color:#000; background:#efefef;}
+.table_style tbody td {padding:7px 0; border-bottom:1px solid #ebebeb; font-size:11px; text-align:center;}
+.table_style tbody td.empty {padding:100px 0;}
+.table_style tbody td.left {padding-left:10px; text-align:left;}
+/* 테이블 스타일 가로2 */
+.table_style3 {width:100%; border-collapse:collapse; border-top:1px solid #e8e8e8; border-left:1px solid #e8e8e8;}
+.table_style3 caption {display:none;}
+.table_style3 thead th {padding:7px 0; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; color:#fff; font-weight:normal; text-align:center; background:#a2a2a2;}
+.table_style3 tbody td {padding:7px 0; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; color:#333; text-align:center;}
+.table_style3 tbody td.empty {padding:100px 0;}
+.table_style3 tbody td.left {padding-left:10px; text-align:left;}
+/* 테이블 스타일 세로 */
+.table_style2 {width:100%; border-top:1px solid #e8e8e8; border-left:1px solid #e8e8e8;}
+.table_style2 caption {display:none;}
+.table_style2 th {padding:4px 0 4px 5px; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; color:#888; font-weight:normal; text-align:left; vertical-align:middle;}
+.table_style2 td {padding:4px 0 4px 5px; border-bottom:1px solid #e8e8e8; border-right:1px solid #e8e8e8; text-align:left; vertical-align:top; line-height:1.2;}
+.table_style2 img {vertical-align:top;}
+/* 장바구니 & 주문조회 총 구매 금액 */
+.table_price {padding:10px 0; text-align:right;}
+.table_price span {color:#000; font-size:12px; font-weight:bold;}
+.table_price .point {color:#e51852;}
+/* 장바구니 & 마이페이지 내용 없을때 */
+.empty {padding:100px 0; border-bottom:1px solid #ddd;}
+/* 정보수정 1단계, 정보수정 완료, 회원가입 완료, 1:1문의 완료, 구입 완료 스타일 박스 */
+.finish {width:600px; margin:20px auto; border:1px solid #e7e7e7; text-align:center; background:#f5f5f5;}
+.finish div {width:96%; margin:10px auto; padding:30px 0; background:#fff;}
+.finish div p strong {margin-right:5px; font-size:14px;}
+/* 상품 리스트 */
+.prdlist {width:100%; margin:0 auto;}
+.prdlist td {padding:10px 0; text-align:center; vertical-align:top;}
+.prdlist dl {width: 500px; margin:0; padding:0; line-height:1.2;}
+.prdlist dt {margin:0; padding:20px 0 0 0; font-weight:bold;}
+.prdlist dt a {color:#888;}
+.prdlist dt a:hover {color:#363636;}
+.prdlist dd {margin:0; padding:0; color:#63514a; font-weight:bold;}
+/* 우편번호검색 */
+#zipcode {padding:5px; text-align:center;}
+#zipcode .box {width:310px; margin:10px auto; padding:5px; border:1px solid #d5d5d5;}
+#zipcode .box img {vertical-align:top;}
+.disabled {
+	background: #eee;
+}
+
+
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	레이아웃
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+html,body {margin:0; padding:0; text-align:center; background:#fff;}
+
+#container {width:100%;}
+
+#header {width:100%; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/dot.gif') repeat-x left bottom;}
+#header ul {margin:0; padding:0;}
+#header ul li {margin:0; padding:0; list-style:none;}
+#header h1 {margin:0; padding:5px 0 28px 0;}
+#header .box_hd {position:relative;}
+#header .cate {text-align:left;}
+#header .cate .cate_list li {padding-bottom:4px; padding-left:10px; font-family:Georgia; font-weight:normal; font-size:14px; font-style:italic; color:#000000; text-align:left;}
+#header .cate .cate_list li a {color:#000000;}
+#header .cate .board_list {padding-top:12px; text-align:left;}
+#header .cate .board_list li {padding-bottom:4px;}
+
+#header .banner {position:absolute; right:0; bottom:0;}
+#header .banner ul {width:600px;}
+#header .banner ul li {float:left}
+#header .menu {clear:both; padding:40px 0 2px 0;}
+#header .menu ul li {display:inline; padding:0 3px; font-size:0;}
+
+#cnt {width:1000px; margin:0 auto; padding:28px 0;}
+
+#footer {clear:both; width:100%; padding:0; margin:0; text-align:center; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/dot.gif') repeat-x left top;}
+#footer .menu {clear:both; width:1000px; margin:0 auto; padding:19px 0 58px 0; text-align:center;}
+#footer .menu ul {margin:0; padding:0;}
+#footer .menu ul li {display:inline; padding:0 12px; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/ft_menu_bar.gif') no-repeat right top;}
+#footer .menu li * {font-size:12px; font-family:"Dotum"; color:#a3a3a3;}
+#footer .menu li.none {background:none;}
+#footer .info {padding:0 0 10px 0; font-size:11px; color:#9a9a9a; line-height:120%;}
+#footer .escrow {padding:10px 0 38px 0; font-size:11px; color:#a3a3a3;}
+#footer .escrow a {color:#a3a3a3;}
+#footer .escrow img {vertical-align:middle;}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	상품,결제 관련스타일
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+/* 장바구니 */
+#cart .box {float:right; width:320px; height:78px; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/shop/bg_roundbox2.gif') no-repeat center top;}
+#cart .box table {width:95%; margin:13px 0 0 10px;}
+#cart .box table th {padding:1px 0; text-align:left; font-weight:normal; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/shop/bg_bar.gif') no-repeat right 2px;}
+#cart .box table td {padding:1px 0; text-align:right;}
+#cart .box table td strong {color:#000;}
+#cart .btn {margin:0; padding:0; text-align:right;}
+#cart .btn li {display:inline; margin:0; padding:0; font-size:0;}
+#cart .btn_naver {padding:10px 0; text-align:right;}
+#cart .empty_cart {clear:both; width:100%; height:250px; border:1px solid #e8e8e8; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/shop/empty2.gif') no-repeat center center;}
+/* 상품목록 */
+#bigsection .bestitem {background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/shop/line.jpg') repeat-y left top;}
+#bigsection .bestitem td {width:192px; padding:10px 0; border-bottom:1px solid #ddd; text-align:center; vertical-align:top;}
+#bigsection .tit {margin:0; padding:0; text-align:left; border-bottom:1px solid #ddd; background:#eee;}
+#bigsection .tit img {margin:14px 0 14px 12px;}
+/* 상품상세 */
+#detail {width:100%;}
+/*
+#detail .img {float:left; width:440px; text-align:center;}
+#detail .info {float:left; width:530px;_width:560px; padding-left:30px; text-align:center;}
+*/
+/*
+#detail .img {width:440px; margin:0 auto; text-align:center;}
+#detail .info {width:390px;_width:440px; margin:0 auto; padding-left:30px; text-align:center;}
+*/
+#detail .img {width:1000px; text-align:left;}
+#detail .info {width:1000px; text-align:left;}
+#detail .info .name {width:100%; padding:20px 0 15px 0; font-family:Times New Roman; color:#000; font-size:12px; font-weight:normal; text-align:left;}
+#detail .info .list {width:100%;}
+#detail .info .list caption {display:none;}
+#detail .info .list th {padding:3px 0; color:#000; font-family:Times New Roman; font-weight:normal; text-align:left;}
+#detail .info .list td {padding:3px 0; color:#333; text-align:left;}
+#detail .info .list .line {border-top:1px solid #ddd;}
+#detail .info .list .nprice {text-decoration:line-through;}
+#detail .info .btn {margin:0; padding:10px 0; text-align:left;}
+#detail .info .btn li {display:inline; list-style:none; margin:0; padding-right:30px; vertical-align:top;}
+#detail .detailinfo {clear:both; width:100%; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/dot.gif') repeat-x left 30px;}
+#detail .detailinfo .dtInfo {width:1250px;}
+#detail .detailinfo .commonInfo {padding:20px 0;}
+#detail .detailinfo .commonInfo img {margin-bottom:4px;}
+#editorBody img {margin-bottom:4px;}
+
+/* 상품문의 & 상품후기 */
+#qnarev {width:100%; text-align:left;}
+#qnarev .cnt {padding:10px; text-align:left;}
+#qnarev .btn {padding:10px 10px 10px 0; text-align:right;}
+#qnarev .searchform * {vertical-align:top;}
+#qnarev .comment {width:100%; margin-bottom:10px; border-top:1px solid #e8e7e7; border-bottom:1px solid #e8e7e7;}
+#qnarev .comment td {padding:5px 0; border:0;}
+#qnarev .comment .name {border-right:1px solid #E8E7E7; text-align:center;}
+#qnarev .comment .subject {padding-left:10px; text-align:left;}
+#qnarev .comment .date {text-align:right;}
+/* 상품문의 & 상품후기 수정 */
+#qnarevmod .modcnt {text-align:left;}
+#qnarevmod .modcnt .input {width:80%;}
+#qnarevmod .modcnt .input2 {width:100%; height:150px;}
+/* 상품문의 바공개 열람 */
+.qnasecret {width:100%; text-align:center;}
+.qnasecret .msg {color:#ff6600;}
+.qnasecret .msg2 {padding:10px 0;}
+/* 상품문의 & 상품후기 상품정보 */
+.minidetail .btn {clear:both; padding:10px 7px 5px 0; text-align:right;}
+.minidetail .miniinfo {width:100%; padding-top:10px;}
+.minidetail .miniinfo .img {float:left; width:40%; text-align:center;}
+.minidetail .miniinfo .list {float:left; width:60%; text-align:left;}
+.minidetail .miniinfo .list p {margin:0; padding:10px 0; font-weight:bold;}
+.minidetail .miniinfo .list ul {margin:0; padding:0;}
+.minidetail .miniinfo .list ul li {list-style:none; margin:0; padding:0;}
+.minidetail .miniinfo .list ul li .nprice {text-decoration:line-through;}
+/* 주문서 */
+#order h3 {margin:0; padding:55px 0 10px 0; text-align:left;}
+#order .ordercheck {padding:20px 0; border-bottom:1px solid #ddd;}
+#order .ordercheck .btn {padding-top:10px;}
+#order .coupon_table {width:98%; background:#868686;}
+#order .coupon_table thead th {background:#dbdbdb;}
+#order .coupon_table tbody td {background:#fff;}
+/* 주문완료 */
+/*#orderfin .msg {width:600px; margin:0 auto; padding:20px 0 0 10px; font-weight:bold; text-align:left; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 3px 25px;}*/
+#orderfin .msg {width:600px; margin:0 auto; padding:20px 0 0 10px; font-weight:bold; text-align:left;}
+#orderfin .finish p {width:94%; margin:0 auto; text-align:left;}
+#orderfin .finish .line {margin-top:10px; padding-top:10px; border-top:1px solid #e5e5e5;}
+#orderfin .gift .tit {padding:0 0 5px 10px; text-align:left;}
+#orderfin .gift .img {width:100px;}
+/* 설문조사 */
+#poll .box {width:100%; padding:20px 0; border-bottom:1px solid #ddd; text-align:center; background:#fafaf9;}
+#poll .box2 {width:94%; margin:0 auto; text-align:left;}
+#poll .box2 .tit {margin:0 0 0 0; padding:3px 0 3px 10px; font-weight:bold; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat left 42%;}
+#poll .box2 .cnt {margin-bottom:20px;}
+#poll .box2 .list {width:100%; margin:0 auto; padding:10px 0; border:1px solid #ddd; background:#fff;}
+#poll .btn {padding:10px 0 40px 0;}
+#poll .commentlist {width:100%; margin-bottom:10px; border-top:1px solid #ddd;}
+#poll .commentlist caption {display:none;}
+#poll .commentlist th {padding:3px 0; border-right:1px solid #ddd; border-bottom:1px solid #ddd;}
+#poll .commentlist td {padding:3px 0 3px 10px; border-bottom:1px solid #ddd; text-align:left;}
+#poll .commentdel {padding-bottom:10px;}
+#poll .commentwrite {width:100%; margin-bottom:20px;}
+#poll .commentwrite td {padding:3px 0; text-align:left;}
+/* 위젯스타일 설문조사 */
+.commonpoll {width:90%; margin:0 auto; border:1px solid #ddd; text-align:center;}
+.commonpoll caption {display:none;}
+.commonpoll th {text-align:left;}
+.commonpoll td {padding:5px 0; text-align:left;}
+/* 상품검색 */
+#searchresult .inputform {padding:10px; text-align:left;}
+#searchresult .keyword {padding:0 0 0 10px; text-align:left;}
+#searchresult .keyword strong {color:#ff0000;}
+#searchresult .catelist {text-align:left;}
+#searchresult .catelist {margin:0; padding:20px 0 0 10px;}
+#searchresult .catelist li {list-style:none; margin:0; padding:0 0 0 10px; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat left 40%;}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	마이페이지
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+/* 마이페이지 메뉴 */
+.mptitle {padding:66px 0; text-align:center;}
+.mpmenu {width:100%; padding:0 0 7px 0; border-bottom:1px solid #dadada;}
+.mpmenu ul {margin:0; padding:0; text-align:center;}
+.mpmenu ul li {margin:0; padding:0 30px 0 0; display:inline;}
+.mpmenu ul li.last {padding-right:0;}
+.mpbox {width:100%; height:186px; margin:23px 0 32px 0; color:#000; text-align:left; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/mypage_logo.gif') no-repeat left top;}
+.mpbox .mpname {padding:31px 0 10px 181px; font-size:11px;}
+.mpbox .mpinfo {width:818px; margin:0 0 0 181px;}
+.mpbox .mpinfo th {padding:8px 0; border-bottom:1px solid #ebebeb; font-size:11px; color:#4d4d4d; text-align:left; line-height:100%;}
+.mpbox .mpinfo td {padding:8px 0; border-bottom:1px solid #ebebeb; font-size:11px; color:#a3a3a3; text-align:left; line-height:100%;}
+/* 마이페이지 */
+.mytit {margin:0; padding:5px 0 5px 8px; color:#888; font-size:12px; font-weight:bold; text-align:left; background:none;}
+.mytit span {font-size:11px; font-weight:normal; color:#a3a3a3;}
+/* 주문조회 */
+#orderlist h2 {clear:both; margin:0; padding:5px 0 25px 0; text-align:left;}
+#orderlist .stat {margin:0; padding:0 0 8px 0;}
+#orderlist .stat li {display:inline; margin:0; padding:0; list-style:none;}
+#orderlist .box {width:990px; margin:10px 0; padding:4px; border:1px solid #e8e8e8; text-align:left;}
+/* 주문상세조회 */
+#order .purchaser {padding:5px 0; font-weight:bold;}
+#order .purchaser span {color:#0072bc;}
+#order .tab {margin:10px;}
+#order .tab li {display:inline;}
+/* 적립금 */
+#milage h2 {clear:both; margin:0; padding:20px 0 5px 0; text-align:left;}
+#milage .box {display:none; width:320px; height:78px; margin:30px auto 0 auto; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/bg_roundbox_milage.gif') no-repeat center top;}
+#milage .box table {width:96%; margin:10px auto 0;}
+#milage .box table th {padding:1px 0; text-align:left; font-weight:normal; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/shop/bg_bar.gif') no-repeat right 2px;}
+#milage .box table td {padding:1px 0; text-align:right;}
+#milage .box table td strong {color:#3974ec;}
+/* 위시리스트 */
+#wishlist h2 {margin:0; padding:25px 0 10px 0; text-align:left;}
+#wishlist .btn {padding:20px 0; text-align:right;}
+/* 포인트 */
+#point .change strong {color:#e51852; font-weight:bold;}
+#point .change .btn {vertical-align:top;}
+/* 1:1상담 리스트 */
+#counsel .content {padding:0 30px 30px 30px; text-align:left;}
+#counsel .content dt {margin:20px 0 0 0; padding:0; font-weight:bold;}
+#counsel .content dd {margin:0; padding:0;}
+#counsel .content .question {color:#777;}
+#counsel .content .answer {color:#000;}
+/* 내가 쓴 Q&A */
+#myqna .content {padding:0 30px 30px 30px; text-align:left;}
+/* 내가 쓴 이용후기 */
+#myreview .content {padding:0 30px 30px 30px; text-align:left;}
+/* 회원탈퇴 */
+/* 위시리스트 */
+#draw h2 {margin:0; padding:25px 0 10px 0; text-align:left;}
+#draw .box {width:400px; height:195px; margin:0 auto; padding:15px 0; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/bg_roundbox_draw.gif') no-repeat center top;}
+#draw .table_style2 {width:94%; margin:0 auto;}
+#draw .btn {padding:20px 0;}
+/* 출석체크 */
+#attend {padding-top:20px;}
+#attend .date .year {color:#ff0000; font-size:20px; font-weight:bold;}
+#attend .date .month {color:#0072bc; font-size:20px; font-weight:bold;}
+#attend .info {margin:0; padding:10px 0 0 10px; text-align:left;}
+#attend .info dt {clear:both; float:left; margin:0; padding:0 10px 0 10px; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 2px 6px;}
+#attend .info dd {margin:0; padding:0 0 0 10px; color:#0072bc; font-weight:bold; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 2px 6px;}
+#attend .msg {padding:0 0 10px 20px; text-align:left; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 12px 6px;}
+#attend #calendar .attenY {background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/attend_ok.gif') no-repeat center 15px;}
+#attend #calendar .attenN {background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/attend_no.gif') no-repeat center 15px;}
+#attend #calendar .attenR {background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/mypage/attend.gif') no-repeat center 15px;}
+#attend #calendar caption {display:none;}
+#attend #calendar table {width:98%; border-top:1px solid #ddd; border-left:1px solid #ddd;}
+#attend #calendar table thead th {padding:10px 0; border-bottom:1px solid #ddd; border-right:1px solid #ddd; text-align:center; background:#f5f5f5;}
+#attend #calendar table thead th.sun {color:#da2128;}
+#attend #calendar table thead th.sat {color:#0072bc;}
+#attend #calendar table tbody td {height:80px; border-bottom:1px solid #ddd; border-right:1px solid #ddd; text-align:left; vertical-align:top;}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	회원
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+.input_id_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_login_id.gif') no-repeat left top;}
+.input_pw_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_login_password.gif') no-repeat left top;}
+.input_ono_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_login_ono.gif') no-repeat left top;}
+.input_phone_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_login_phone.gif') no-repeat left top;}
+.input_name_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_find_name.gif') no-repeat left top;}
+.input_email_bg {background:#fff url('http://www.milkcocoa.co.kr/_skin/user_1/img/member/bg_find_email.gif') no-repeat left top;}
+
+/* 로그인 */
+#login {width:100%; padding:31px 0; text-align:center;}
+#login .fail {padding:30px 0; color:red;}
+#login .login_box {width:595px; padding:0; margin:0 auto; text-align:left;}
+#login .login_box .tit {padding:5px 0; text-align:left;}
+#login .box {float:left; position:relative; width:262px;}
+#login .box fieldset {padding:30px 20px; margin:0; border:0; border-top:1px solid #dadada; border-bottom:1px solid #dadada; text-align:left;}
+#login .box fieldset legend {display:none;}
+#login .box fieldset p {width:100%; padding:0 0 8px 0;}
+#login .box fieldset p.none {padding:0;}
+#login .box fieldset p .input {width:144px; height:21px; border:1px solid #afafaf;}
+#login .box .login_btn {position:absolute; top:54px; left:178px;}
+#login .bottombtn {clear:both; text-align:right;}
+/* 아이디 비밀번호 찾기 */
+#find {width:100%; height:500px; padding:31px 0; text-align:center;}
+#find .find_box {width:595px; padding:0; margin:0 auto; text-align:left;}
+#find .find_box .tit {padding:5px 0; text-align:left;}
+#find .box {float:left; position:relative; width:262px;}
+#find .box fieldset {padding:30px 20px; margin:0; border:0; border-top:1px solid #dadada; border-bottom:1px solid #dadada; text-align:left;}
+#find .box fieldset legend {display:none;}
+#find .box fieldset p {width:100%; padding:0 0 8px 0;}
+#find .box fieldset p.none {padding:0;}
+#find .box fieldset p .input {width:144px; height:21px; border:1px solid #afafaf;}
+#find .box .find_btn {position:absolute; top:74px; left:178px;}
+/* 회원가입 step1 */
+#joinstep1 {width:96%; margin:0 auto; padding:20px 0;}
+#joinstep1 h2 {margin:0; padding:0 0 30px 0; color:#888; font-size:12px; text-align:left;}
+#joinstep1 h2 span {font-weight:normal;}
+#joinstep1 iframe {width:100%; height:200px; border:1px solid #dedfde;}
+#joinstep1 p {padding:10px 0 20px 0;}
+#joinstep1 p.tit {padding:0 0 10px 8px; text-align:left; font-weight:bold; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat left 25%;}
+#joinstep1 p.btn {text-align:center;}
+/* 회원가입 폼 */
+#join .table_style2 {width:90%; margin:0 auto;}
+#join .table_style2 th {padding:5px 0 5px 20px; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_check.gif') no-repeat 4px 6px;}
+#join .table_style2 td {padding:5px 0 5px 5px;}
+/* 회원가입완료 */
+#joinfin .finish {margin-top:40px;}
+
+/*///////////////////////////////////////////////////////////////////////////////////
+//
+//	기타페이지
+//
+///////////////////////////////////////////////////////////////////////////////////*/
+/* 회사소개 */
+#company {width:98%; margin:10px auto;}
+#company .logo {padding-bottom:10px;}
+/* 이용안내 */
+
+/* 이용약관 */
+#join_rull {width:98%; margin:10px auto; text-align:left;}
+#join_rull dl,
+#join_rull ol,
+#join_rull ul {margin:0; padding:0;}
+#join_rull dt {margin:0; padding:0; font-weight:bold;}
+#join_rull dd {margin:0 0 20px 0; padding:0;}
+#join_rull li {list-style:none; margin:0; padding:0 0 0 10px;}
+/* 개인정보취급방침 */
+#privacy {width:98%; margin:10px auto; text-align:left;}
+#privacy dl {margin:0; padding:0;}
+#privacy dt {margin:0; padding:0 0 0 8px; font-weight:bold; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 0 5px;}
+#privacy dd {margin:0; padding:0 0 20px 0;}
+#privacy dd dl dt {margin:0; padding:0 0 0 18px; font-weight:normal; background:url('http://www.milkcocoa.co.kr/_skin/user_1/img/common/bullet_arrow.gif') no-repeat 10px 5px;}
+#privacy dd dl dd {margin:0; padding:0 0 0 20px;}
+#privacy ul,
+#privacy ol {margin:0; padding:0;}
+#privacy li {margin:0 0 0 18px; padding:0;}
+/* 추천메일 */
+#request {width:680px; padding:20px 0;}
+#request .name {padding-top:20px; color:#d81e1e; font-size:20px;}
+#request .price {padding-bottom:20px;}
+#request .btn {padding:20px 0;}
