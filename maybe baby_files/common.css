@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+/* **************************** //필수 CSS 수정 및 삭제 불가 **************************** */
+@font-face {
+	font-family: 'breg';
+	src: url('/js/Brandon_reg.otf.eot'); /*폰트 파일 주소 (IE 8이하에서만 사용) */
+	src: local(※),url('/js/Brandon_reg.woff') format('woff'); /* IE9이상, 다른 웹표준 브라우저에서 사용 */
+}
+@font-face {
+	font-family: 'DINProLight';
+	src: url('/web/font/DINProLight.eot');
+	src: local('DINProLight'), url('/web/font/DINProLight.woff') format('woff'), url('/web/font/DINProLight.ttf') format('truetype');
+}
+
+/* Font downloaded from FontsForWeb.com */
+/* tag reset */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td,img { margin:0; padding:0; }
+html { width:100%; height:100%; }
+body,code { font-size:13px;  font-family: 'Arial','돋움','Dotum', sans-serif; color:#7d7d7d; background:#fff; }
+body {overflow-y: scroll; width: 100%;}
+
+body#popup { min-width:0; }
+li { list-style:none; }
+img,fieldset { border:none; vertical-align:middle; }
+table { width:100%; border:0; border-spacing:0; border-collapse:collapse; }
+caption { display:none; }
+th,td { border:0; vertical-align:top; }
+input,select,textarea { font-size:100%; font-family: 'Arial','돋움','Dotum', sans-serif; color:#7d7d7d; vertical-align:middle; font-size:11px;}
+.inputTypeText { height:19px; padding:3px 0 0 9px; border:1px solid #d7d7d7; }
+select { height:24px; border:1px solid #d7d7d7; }
+textarea { padding:5px 6px; border:1px solid #d7d7d7; line-height:1.5; }
+legend { visibility:hidden; position:absolute; left:-9999px; top:-9999px; width:0; height:0; line-height:0; }
+button { overflow:visible; padding:0; margin:0; border:0; cursor:pointer; }
+hr.layout { display:none; }
+a { text-decoration:none; color:#7d7d7d; }
+a:hover { text-decoration:none; color:#acacac;}
+a:active { text-decoration:none; }
+.objHidden { visibility:hidden; position:absolute; left:-1000px; top:-1000px; height:0; width:0; }
+table tr.radioType input,
+span.noBorder input { border:none !important; width:auto !important; height:auto !important; margin:0 3px 0 0 !important; vertical-align:middle !important; background:none !important; }
+#content_CONTAINER td { width:auto !important; }
+table.nneditor-table { width:auto !important; }
+
+/* 결제진행바 */
+#progressPaybarBackground { position:absolute; z-index:99; left:0; top:0; width:100%; height:100%; }
+#progressPaybarView { position:absolute; z-index:100; top:160px; left:20px; width:471px; font-size:12px; }
+#progressPaybarView .box { height:180px; background:url(http://img.cafe24.com/images/ec_hosting/popup/layer_guide/bg_layer_box1.gif) 0 0 no-repeat; }
+#progressPaybarView .box .graph { padding:15px 0 0 0; text-align:center;}
+#progressPaybarView .box .graph span { display:block; text-align:center; margin:20px 0; }
+#progressPaybarView .box .txt { text-align:center; padding:15px 0 0; }
+div.layerProgress { filter:alpha(opacity=40); opacity:0.4; -moz-opacity:0.4; background-color:#aaa; }
+
+/* contents */
+#skipNavigation {position:absolute; top:0; left:0; z-index:100; width:0; height:0;}
+#skipNavigation p, #skipNavigation ul, #skipNavigation ul li {height:0;}
+#skipNavigation p a {position:absolute; left:0; top:0; display:block; overflow:hidden; width:0; height:0; margin-left:0; margin-bottom:0;  text-align:center; color:#7d7d7d; white-space:nowrap;}
+#skipNavigation p a:focus, #skipNavigation p a:hover, #skipNavigation p a:active {width:0; height:auto; padding:0; background:#aaa; color:#fff; z-index:100;}
+
+.displaynone { display:none; }
+
+/* **************************** 필수 CSS 수정 및 삭제 불가 **************************** */
