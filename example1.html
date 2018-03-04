@@ -2,77 +2,38 @@
 <html>
 <head> <title>example1</title>   
 	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Marck+Script" rel="stylesheet">
+<!DOCTYPE html>
 
-<style>
-@font-face {font-family: 'Cutive Mono', monospace;
-}
-body {
-	background: #000;
-	font-family: "Nico Moji", sans-serif;
-}
+<html>
 
-.column {
-	height: 100vh;
-	width: 100%;
-	text-align: center;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-}
-	.info {
-		margin-bottom: 10%;
-	}
-	h2 {
-		font-size: 3rem;
-	}
-	p {
-		font-size: 1.5rem;
-	}
-	a {
-		font-size: 2rem;
-		background: #0bd;
-		border-radius: 5px;
-		padding: 10px 20px;
-		color: #fff;
-		text-decoration: none;
-		display: inline-block;
-		margin-top: 18px;
-	}
-	a:hover {
-		background: #0090aa;
-	}
-.cat1 {
-	background: url(http://www.maybe-baby.co.kr/product/detail.html?product_no=25611&cate_no=55&display_group=1) no-repeat top center;
-	background-size: cover;
-	color: rgba(255,255,255,.7);
-}
-.cat2 {
-	background: url(http://www.maybe-baby.co.kr/product/detail.html?product_no=25611&cate_no=55&display_group=1) no-repeat top center;
-	background-size: cover;
-	color: rgba(0,0,0,.7);
-}
+<head>
 
-@media all and (min-width: 500px) {
-  .wrapper {
-    display: flex;
-  }
-}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+<script>
 
-</style></head>
-  
-<frameset cols="33%,33%,*" frameborder=1>
+$(document).ready(function(){
 
-<frame src="http://www.maybe-baby.co.kr/">
+    $("#div1").load("http://www.maybe-baby.co.kr/product/detail.html?product_no=25611&cate_no=55&display_group=1");
 
-<frame src="index.html">
+});
 
-<frame src="http://feelsogirl.cafe24.com/front/php/product.php?product_no=9003&main_cate_no=1&display_group=3
-.html"/>
+</script>
 
-</frameset>
+</head>
+
+<body>
 
 
 
-  
-  </body></html>
+<div id="div1" style="border: solid; width:400px; height:800px; "></div>
+
+
+
+
+
+
+</body>
+
+</html>
+
